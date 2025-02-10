@@ -35,6 +35,24 @@ This article lists the permissions you can use in your custom roles for differen
 
 [!INCLUDE [License requirement for using custom roles in Azure AD](~/includes/entra-p1-license.md)]
 
+## Create or Delete of user
+
+> [!div class="mx-tableFixed"]
+> | Permission | Description |
+> | ---------- | ----------- |
+> | microsoft.directory/users/create | Create user account|
+> | microsoft.directory/users/delete | Delete user account |
+
+## Enable or Disable of user
+
+> [!div class="mx-tableFixed"]
+> | Permission | Description |
+> | ---------- | ----------- |
+> | microsoft.directory/users/enable | Enable user account |
+> | microsoft.directory/users/disable | Disable users account |
+
+
+
 ## Read or update basic properties of users
 
 The following permissions are available to read or update basic properties of users.
